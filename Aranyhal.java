@@ -2,9 +2,10 @@ package aranyhal;
 
 public class Aranyhal {
 
-    int kor;
-    String[] kivansagok;
-    String kifogta;
+    private final static int KIVANSAGSZAM =3; 
+    private int kor;
+    private String[] kivansagok = new String[KIVANSAGSZAM];
+    private String kifogta;
 
     public Aranyhal(String kifogta) {
         this(0, kifogta);
@@ -34,6 +35,12 @@ public class Aranyhal {
     public boolean kivansagotTeljest(String kivansag) {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "Aranyhal{" + "kor=" + kor + ", kivansagok=" + kivansagok + ", kifogta=" + kifogta + '}';
+    }
+    
     
     
     

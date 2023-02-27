@@ -1,0 +1,5 @@
+Hozz létre egy java osztályt amiben egy egy Aranyhalat lehet kifogni, tudjuk aki
+utóljár aki kifogta és kívánságait ami maximum 3 lehet, azt is tudjuk hányadik 
+kör kivánságát váltotta be aki kifogta a halatl. Ki tudjuk számolni hány 
+kivánsága van, kikkel találkozott és kivánságot teljesíteni is tud a hal.
+Az összes adatot képesek vagyunk kiiratni.
